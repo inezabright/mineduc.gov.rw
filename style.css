@@ -69,3 +69,48 @@ nav ul li.active {
     left: 10%;
     color: white;
 }
+body {
+  background-image: url("https://www.mineduc.gov.rw/fileadmin/_processed_/f/c/csm_HOME_HEADER_7f03bd1b78.jpg");
+  background-size: 70px; /* Stretches image to cover screen */
+  background-repeat: no-repeat;
+  height: 100vh; /* Viewport height */
+  margin: 0;
+}
+
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 400px;
+    padding: 0 50px 80px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    background-color: #0a6ed1;
+    border-radius: 5px;
+}
+
+
