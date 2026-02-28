@@ -71,7 +71,7 @@ nav ul li.active {
 }
 body {
   background-image: url("https://www.mineduc.gov.rw/fileadmin/_processed_/f/c/csm_HOME_HEADER_7f03bd1b78.jpg");
-  background-size: 70px; /* Stretches image to cover screen */
+  background-size: cover; /* Stretches image to cover screen */
   background-repeat: no-repeat;
   height: 100vh; /* Viewport height */
   margin: 0;
@@ -112,5 +112,3 @@ body {
     background-color: #0a6ed1;
     border-radius: 5px;
 }
-
-
